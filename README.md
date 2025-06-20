@@ -13,7 +13,8 @@
 ## PCB
 ![Image](https://github.com/user-attachments/assets/7c6ac2a6-6508-46ab-a81c-b0ad1016330e)
 
-
+## Note 
+For details schematic please download and view in PDF .
 
 
 
