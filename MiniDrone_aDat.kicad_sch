@@ -4,7 +4,393 @@
 	(generator_version "9.0")
 	(uuid "fa3d8347-57ba-4f4f-87fb-eda48754e7c3")
 	(paper "B")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Motor_ScrewsHole:720DCMotor"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Mt"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Motor_Screws:720DCMotor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "720DCMotor_0_1"
+				(arc
+					(start -0.762 0)
+					(mid -1.651 -0.3682)
+					(end -2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.762)
+					(mid 0.3682 -1.651)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.762)
+					(mid -0.3682 1.651)
+					(end 0 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.762 0)
+					(mid 1.651 0.3682)
+					(end 2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "720DCMotor_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Motor_ScrewsHole:PillarScrews5mmM3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Scr"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Motor_Screws:PillarScrew5mmM3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PillarScrews5mmM3_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PillarScrews5mmM3_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
 	(circle
 		(center 293.497 139.7)
 		(radius 12.7)
@@ -156,6 +542,18 @@
 		)
 		(uuid bf84fd55-52a6-4ce3-982c-7ad1d11119b7)
 	)
+	(rectangle
+		(start 323.85 44.45)
+		(end 381 70.104)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d2227a60-bc20-47ff-b284-cbd59d2b2856)
+	)
 	(circle
 		(center 293.497 109.22)
 		(radius 12.7)
@@ -275,6 +673,18 @@
 			(justify left bottom)
 		)
 		(uuid "293175b9-ac9e-44db-bc06-e14124ead34c")
+	)
+	(text "MechanicPart\n"
+		(exclude_from_sim no)
+		(at 329.946 42.926 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "29ff9b82-6d7d-405d-9493-48eb8a2be4db")
 	)
 	(text "Coreless Motor"
 		(exclude_from_sim no)
@@ -632,6 +1042,30 @@
 		)
 		(uuid "74467b69-bf57-4c37-ada0-63ee4dc41829")
 	)
+	(junction
+		(at 342.9 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "090e9df8-ba79-4507-8404-e3c9665fcc53")
+	)
+	(junction
+		(at 368.3 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1824c31f-5ea4-46d3-90eb-cfe8acdf5cf0")
+	)
+	(junction
+		(at 330.2 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2de82483-8080-468a-9423-eb40582ba149")
+	)
+	(junction
+		(at 355.6 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c86ad759-8d24-4256-a4cd-1c05db16a12b")
+	)
 	(polyline
 		(pts
 			(xy 171.577 213.36) (xy 171.577 198.12)
@@ -654,6 +1088,16 @@
 		)
 		(uuid "0bad48b6-4fc6-4ce0-9382-36fdec7fd341")
 	)
+	(wire
+		(pts
+			(xy 368.3 50.8) (xy 368.3 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ef939ce-74c0-4790-9481-05b9384038d9")
+	)
 	(polyline
 		(pts
 			(xy 186.817 160.02) (xy 186.817 127)
@@ -664,6 +1108,16 @@
 			(color 0 0 255 1)
 		)
 		(uuid "1175623c-0de6-4733-957d-de1225df1f8e")
+	)
+	(wire
+		(pts
+			(xy 330.2 57.15) (xy 317.5 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1836a014-8eab-417f-85ff-88aa7d510786")
 	)
 	(polyline
 		(pts
@@ -676,6 +1130,16 @@
 		)
 		(uuid "1d8d8747-bf5b-457d-ad3f-ebf3c4f2b6c4")
 	)
+	(wire
+		(pts
+			(xy 355.6 57.15) (xy 342.9 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23a22eca-6ada-47fc-a8f1-d8712d460bab")
+	)
 	(polyline
 		(pts
 			(xy 110.617 88.9) (xy 110.617 96.52)
@@ -687,6 +1151,16 @@
 		)
 		(uuid "24df834a-4e3d-4466-8ee9-01659529ed76")
 	)
+	(wire
+		(pts
+			(xy 342.9 50.8) (xy 342.9 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dcca4a9-f04b-4424-8d25-7996d7966166")
+	)
 	(polyline
 		(pts
 			(xy 110.617 33.02) (xy 110.617 50.8)
@@ -697,6 +1171,26 @@
 			(color 255 0 0 1)
 		)
 		(uuid "3060baa9-6d4b-4727-afa2-bb1210a3e906")
+	)
+	(wire
+		(pts
+			(xy 342.9 57.15) (xy 330.2 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39395a41-a852-4533-b28e-1b8635c7546a")
+	)
+	(wire
+		(pts
+			(xy 368.3 57.15) (xy 355.6 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c5dc973-07aa-4c4e-b181-a1a124104ef1")
 	)
 	(polyline
 		(pts
@@ -808,6 +1302,16 @@
 		)
 		(uuid "7d66cbac-2f9e-4b5d-8fd6-e197bf951177")
 	)
+	(wire
+		(pts
+			(xy 330.2 50.8) (xy 330.2 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b8e4eba-b647-46ed-b2ef-2c4af6c4cb1b")
+	)
 	(polyline
 		(pts
 			(xy 227.457 231.14) (xy 227.457 127)
@@ -818,6 +1322,16 @@
 			(color 255 0 0 1)
 		)
 		(uuid "8bc189f4-3d07-42e5-8721-33c079817f3d")
+	)
+	(wire
+		(pts
+			(xy 330.2 57.15) (xy 330.2 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "978e426e-262e-478e-86b2-4e1d187763e4")
 	)
 	(polyline
 		(pts
@@ -863,6 +1377,26 @@
 		)
 		(uuid "b944ee07-7a70-43dd-89ef-6a17b7124f97")
 	)
+	(wire
+		(pts
+			(xy 355.6 57.15) (xy 355.6 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba6dca40-b1ec-4b0a-84d9-5ae141f8e42f")
+	)
+	(wire
+		(pts
+			(xy 368.3 57.15) (xy 368.3 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9335c4f-6186-44f2-abf8-2bfe5f3ac58e")
+	)
 	(polyline
 		(pts
 			(xy 227.457 88.9) (xy 227.457 78.74)
@@ -896,6 +1430,16 @@
 		)
 		(uuid "e0c44488-97da-4c74-8f20-1148029dc4d2")
 	)
+	(wire
+		(pts
+			(xy 342.9 57.15) (xy 342.9 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e65de823-ec8a-4f6b-81a2-c0f3794201b0")
+	)
 	(polyline
 		(pts
 			(xy 194.437 223.52) (xy 202.057 223.52)
@@ -906,6 +1450,16 @@
 			(color 0 0 255 1)
 		)
 		(uuid "eccb7bca-6fb8-4e47-91d8-1e77e8823d3f")
+	)
+	(wire
+		(pts
+			(xy 355.6 50.8) (xy 355.6 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eda44d71-a293-4cb3-b273-6c88aaae2bdc")
 	)
 	(polyline
 		(pts
@@ -928,6 +1482,608 @@
 			(color 255 0 0 1)
 		)
 		(uuid "f12352ad-22b1-48e4-b311-baa02c10e020")
+	)
+	(symbol
+		(lib_id "Motor_ScrewsHole:720DCMotor")
+		(at 342.9 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2bcda1ea-06f4-429a-90a8-dbf5d465b962")
+		(property "Reference" "Mt2"
+			(at 346.71 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 346.71 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Motor_Screws:720DCMotor"
+			(at 342.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 342.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND"
+			(uuid "3295d7ab-d9aa-42af-887b-63c0b2226832")
+		)
+		(instances
+			(project "MiniDrone_aDat"
+				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3"
+					(reference "Mt2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor_ScrewsHole:PillarScrews5mmM3")
+		(at 330.2 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3062e60d-b0a9-4cb4-8ca1-3ffa5e6fcf17")
+		(property "Reference" "Scr1"
+			(at 334.01 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 334.01 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Motor_Screws:PillarScrew5mmM3"
+			(at 330.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 330.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 330.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND"
+			(uuid "dd70ef3e-ffd9-4b2b-a393-48f7223b7a2b")
+		)
+		(instances
+			(project ""
+				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3"
+					(reference "Scr1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor_ScrewsHole:PillarScrews5mmM3")
+		(at 342.9 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36794788-4c63-48f4-9041-fbf11cf18efa")
+		(property "Reference" "Scr2"
+			(at 346.71 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 346.71 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Motor_Screws:PillarScrew5mmM3"
+			(at 342.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 342.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND"
+			(uuid "ab1852e2-a1ef-46e2-b743-3a254b7341af")
+		)
+		(instances
+			(project "MiniDrone_aDat"
+				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3"
+					(reference "Scr2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor_ScrewsHole:720DCMotor")
+		(at 355.6 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "595bd932-c1ad-45f3-baef-dcfcaa712b4d")
+		(property "Reference" "Mt3"
+			(at 359.41 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 359.41 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Motor_Screws:720DCMotor"
+			(at 355.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 355.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 355.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND"
+			(uuid "5378d64e-bdac-49a8-a984-c1cff7d36234")
+		)
+		(instances
+			(project "MiniDrone_aDat"
+				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3"
+					(reference "Mt3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor_ScrewsHole:PillarScrews5mmM3")
+		(at 368.3 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "adf756af-9811-4078-ac35-e5ac3867e67a")
+		(property "Reference" "Scr4"
+			(at 372.11 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 372.11 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Motor_Screws:PillarScrew5mmM3"
+			(at 368.3 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.3 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 368.3 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND"
+			(uuid "4693961c-0216-48da-8028-1ae7ff9e1c44")
+		)
+		(instances
+			(project "MiniDrone_aDat"
+				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3"
+					(reference "Scr4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 317.5 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b60e7e6c-9b9f-48fe-b672-2a1ec45db7a4")
+		(property "Reference" "#PWR042"
+			(at 317.5 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 317.5 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 317.5 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 317.5 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 317.5 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed9be843-d45f-4e88-aaf8-4c521dd0f595")
+		)
+		(instances
+			(project ""
+				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor_ScrewsHole:PillarScrews5mmM3")
+		(at 355.6 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bea82ef9-62d8-4211-99fc-836ec0254bd6")
+		(property "Reference" "Scr3"
+			(at 359.41 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 359.41 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Motor_Screws:PillarScrew5mmM3"
+			(at 355.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 355.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 355.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND"
+			(uuid "67be2165-0146-4d87-90d4-3d526f5a0ecd")
+		)
+		(instances
+			(project "MiniDrone_aDat"
+				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3"
+					(reference "Scr3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor_ScrewsHole:720DCMotor")
+		(at 368.3 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0fb4991-da7b-4078-90d8-af184401ff28")
+		(property "Reference" "Mt4"
+			(at 372.11 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 372.11 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Motor_Screws:720DCMotor"
+			(at 368.3 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.3 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 368.3 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND"
+			(uuid "f679beb0-4f7e-43a2-8632-53f42de412bd")
+		)
+		(instances
+			(project "MiniDrone_aDat"
+				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3"
+					(reference "Mt4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor_ScrewsHole:720DCMotor")
+		(at 330.2 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f88ff649-cd64-4762-9e26-af32a82c7991")
+		(property "Reference" "Mt1"
+			(at 334.01 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 334.01 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Motor_Screws:720DCMotor"
+			(at 330.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 330.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 330.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND"
+			(uuid "1cf207d8-60be-4097-be90-e41013289f2e")
+		)
+		(instances
+			(project ""
+				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3"
+					(reference "Mt1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(sheet
 		(at 233.68 196.85)
