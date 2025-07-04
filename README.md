@@ -11,7 +11,9 @@
 ### Power 
 ![Image](https://github.com/user-attachments/assets/1d366f26-afe1-447e-a548-1bfdf900566e)
 ## PCB
-![Image](https://github.com/user-attachments/assets/7c6ac2a6-6508-46ab-a81c-b0ad1016330e)
+<img width="728" height="754" alt="Image" src="https://github.com/user-attachments/assets/a725ec0f-c476-4d5c-8578-e108bb791335" />
+
+<img width="854" height="819" alt="Image" src="https://github.com/user-attachments/assets/8251bf23-ac10-4937-bdbd-f26cd183696d" />
 
 ## Note 
 For details schematic please download and view in PDF .
