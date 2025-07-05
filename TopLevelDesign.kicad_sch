@@ -1027,6 +1027,290 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Motor_ScrewsHole:720DCMotor"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Mt"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Motor_Screws:720DCMotor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "720DCMotor_0_1"
+				(arc
+					(start -0.762 0)
+					(mid -1.651 -0.3682)
+					(end -2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.762)
+					(mid 0.3682 -1.651)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.762)
+					(mid -0.3682 1.651)
+					(end 0 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.762 0)
+					(mid 1.651 0.3682)
+					(end 2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "720DCMotor_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Motor_ScrewsHole:ScrewM2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Scr"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Motor_Screws:ScrewM2"
+				(at -0.254 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ScrewM2_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ScrewM2_1_1"
+				(pin input line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -1355,11 +1639,65 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 190.5 57.15)
+		(end 247.65 120.65)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid dd4adc99-5974-47a9-983c-ff2ca3eb4e18)
+	)
+	(text "MechanicPart\n"
+		(exclude_from_sim no)
+		(at 196.596 55.626 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "78bba2ef-d015-40fe-9a2d-96fcfbaa06b4")
+	)
+	(junction
+		(at 196.85 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0aee7616-79b2-4721-a511-67a7499bf2f9")
+	)
+	(junction
+		(at 234.95 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "136b9837-8b55-4f88-a71c-7c81a6f25ac6")
+	)
+	(junction
+		(at 234.95 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2772c390-2134-4c75-978a-eef344da881f")
+	)
 	(junction
 		(at 43.18 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2da833da-6f92-4121-9fc2-83397c358c82")
+	)
+	(junction
+		(at 234.95 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3459e0fc-7d7e-4c27-89cb-44dc34a9d493")
+	)
+	(junction
+		(at 196.85 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f8dfeb9-2b8f-4c5c-87f8-3a7660260984")
 	)
 	(junction
 		(at 105.41 107.95)
@@ -1368,16 +1706,82 @@
 		(uuid "633b0fe6-31d2-41e4-864a-ed22ea089c27")
 	)
 	(junction
+		(at 234.95 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78ba2db8-7549-4dd9-a37f-815363352c0c")
+	)
+	(junction
+		(at 222.25 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84520093-101c-4ace-89c0-ad65b808d48c")
+	)
+	(junction
+		(at 209.55 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "885fab00-b0ea-4e02-912d-20395fdec349")
+	)
+	(junction
+		(at 222.25 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a199bcf7-7716-4c76-837d-639352b1e459")
+	)
+	(junction
+		(at 222.25 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6a8e695-f550-4d3d-862c-6a0229c0629d")
+	)
+	(junction
+		(at 209.55 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a743bc1b-dae5-4c35-9c13-8babab0f7d8f")
+	)
+	(junction
 		(at 158.75 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1f23525-fbbd-49a1-8eef-71483ffcc9c6")
 	)
 	(junction
+		(at 196.85 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3e6c8bf-0fd4-4535-acf9-e74e6dee2750")
+	)
+	(junction
+		(at 222.25 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd6f9ae7-5ec5-49fa-afcd-a17cf156b98e")
+	)
+	(junction
+		(at 196.85 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c58cfa8c-c773-4782-a8a5-9cc738878e82")
+	)
+	(junction
+		(at 209.55 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9289fee-c5ea-49d7-8f2b-1ecc28810ab7")
+	)
+	(junction
 		(at 105.41 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4f44394-70ef-411e-85b5-ed9a4ad7923b")
+	)
+	(junction
+		(at 209.55 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbbbec59-dfa0-49dd-8113-dafd354c6b4c")
 	)
 	(junction
 		(at 46.99 171.45)
@@ -1424,6 +1828,16 @@
 	(no_connect
 		(at 87.63 161.29)
 		(uuid "f58c6072-a5f2-493f-89a4-25c15b94141e")
+	)
+	(wire
+		(pts
+			(xy 222.25 69.85) (xy 222.25 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00ff2245-8962-4f6b-90d3-ca83baccc308")
 	)
 	(wire
 		(pts
@@ -1577,6 +1991,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 76.2) (xy 209.55 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31aa6f56-dfb0-41eb-a619-28c6ca49900f")
+	)
+	(wire
+		(pts
 			(xy 115.57 149.86) (xy 144.78 149.86)
 		)
 		(stroke
@@ -1584,6 +2008,26 @@
 			(type default)
 		)
 		(uuid "31aca5d0-44d7-475c-a60c-42f0be37288f")
+	)
+	(wire
+		(pts
+			(xy 234.95 63.5) (xy 234.95 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36edf00f-58d2-428f-b47a-3ce588d49799")
+	)
+	(wire
+		(pts
+			(xy 222.25 88.9) (xy 222.25 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3719cb8e-6a39-4b41-a08c-1b1d4616d64d")
 	)
 	(wire
 		(pts
@@ -1727,6 +2171,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 76.2) (xy 196.85 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69606353-ed0c-45d4-bb66-ef9516e4bdf4")
+	)
+	(wire
+		(pts
 			(xy 172.72 153.67) (xy 181.61 153.67)
 		)
 		(stroke
@@ -1757,6 +2211,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 69.85) (xy 209.55 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "704b9dc7-c201-4bfe-b045-8046527285b1")
+	)
+	(wire
+		(pts
 			(xy 115.57 130.81) (xy 144.78 130.81)
 		)
 		(stroke
@@ -1764,6 +2228,16 @@
 			(type default)
 		)
 		(uuid "705a1d80-2c76-4740-9c63-c7215363aeae")
+	)
+	(wire
+		(pts
+			(xy 209.55 101.6) (xy 209.55 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73e28a7c-e37c-44d5-8bc3-3e1cd81e91d2")
 	)
 	(wire
 		(pts
@@ -1787,6 +2261,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 63.5) (xy 209.55 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75e58dd3-eb78-46c3-9d39-fefec3a98f19")
+	)
+	(wire
+		(pts
 			(xy 87.63 125.73) (xy 92.71 125.73)
 		)
 		(stroke
@@ -1794,6 +2278,16 @@
 			(type default)
 		)
 		(uuid "76441f47-71d4-4b9e-b814-c3c72b41165e")
+	)
+	(wire
+		(pts
+			(xy 196.85 63.5) (xy 196.85 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78f03c05-01d4-421f-b1ac-ffabef9c3dff")
 	)
 	(wire
 		(pts
@@ -1814,6 +2308,26 @@
 			(type default)
 		)
 		(uuid "7d489b77-1d4e-4bdf-9c60-ac8ea0d03f4e")
+	)
+	(wire
+		(pts
+			(xy 234.95 101.6) (xy 234.95 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ebbb009-5ed5-401a-9341-0265d2788d00")
+	)
+	(wire
+		(pts
+			(xy 209.55 88.9) (xy 209.55 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f64db60-a34e-4146-ad52-4f31d2ae7585")
 	)
 	(wire
 		(pts
@@ -1907,6 +2421,26 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 69.85) (xy 196.85 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a9d77d9-70ba-428e-9e07-62d6cafe0c2f")
+	)
+	(wire
+		(pts
+			(xy 222.25 101.6) (xy 222.25 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d1eb2b1-92c2-4aa2-b346-84cc1f198666")
+	)
+	(wire
+		(pts
 			(xy 115.57 156.21) (xy 124.46 156.21)
 		)
 		(stroke
@@ -1977,6 +2511,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 69.85) (xy 222.25 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a72754c0-71bb-4361-9fe8-228865554da3")
+	)
+	(wire
+		(pts
 			(xy 172.72 133.35) (xy 181.61 133.35)
 		)
 		(stroke
@@ -2007,6 +2551,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 76.2) (xy 222.25 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adc58ce6-3760-4037-a70c-6ed898e068e4")
+	)
+	(wire
+		(pts
 			(xy 41.91 36.83) (xy 48.26 36.83)
 		)
 		(stroke
@@ -2014,6 +2568,16 @@
 			(type default)
 		)
 		(uuid "af3e95c2-7622-41d0-b234-a844de141245")
+	)
+	(wire
+		(pts
+			(xy 209.55 69.85) (xy 209.55 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af95053d-ec9a-4d9f-8d64-38301ae01e0b")
 	)
 	(wire
 		(pts
@@ -2054,6 +2618,16 @@
 			(type default)
 		)
 		(uuid "ba535c30-d895-4eee-a0af-300e69a9bae4")
+	)
+	(wire
+		(pts
+			(xy 196.85 69.85) (xy 184.15 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bca4ffd1-ac6b-41b9-8bc2-c1c7db4f46c3")
 	)
 	(wire
 		(pts
@@ -2104,6 +2678,16 @@
 			(type default)
 		)
 		(uuid "c3df4ed6-143d-43fa-86d9-a053645e8817")
+	)
+	(wire
+		(pts
+			(xy 209.55 69.85) (xy 196.85 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4937650-230f-4636-ac25-2f96b5f862c0")
 	)
 	(wire
 		(pts
@@ -2167,6 +2751,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 69.85) (xy 234.95 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d16f8c59-bed3-435a-8992-52526ddc2a9a")
+	)
+	(wire
+		(pts
 			(xy 87.63 146.05) (xy 92.71 146.05)
 		)
 		(stroke
@@ -2174,6 +2768,16 @@
 			(type default)
 		)
 		(uuid "d30ba9b5-ad66-4a30-bc75-8ea8d059fd8f")
+	)
+	(wire
+		(pts
+			(xy 234.95 88.9) (xy 234.95 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d416e166-d7f1-424b-a572-bc3f79ad5d4e")
 	)
 	(wire
 		(pts
@@ -2207,6 +2811,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 76.2) (xy 234.95 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9d604c0-21c0-40af-8aa1-faf7ddf2b4b5")
+	)
+	(wire
+		(pts
 			(xy 50.8 127.762) (xy 50.8 115.57)
 		)
 		(stroke
@@ -2224,6 +2838,16 @@
 			(type default)
 		)
 		(uuid "e055587c-c363-4f57-9e03-69a7b5644ab5")
+	)
+	(wire
+		(pts
+			(xy 222.25 63.5) (xy 222.25 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2545ebe-53ce-40ec-84e1-703f749a92d2")
 	)
 	(wire
 		(pts
@@ -2287,6 +2911,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 101.6) (xy 196.85 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef24e0d1-660b-4b13-8456-afa5624eb189")
+	)
+	(wire
+		(pts
 			(xy 137.16 29.21) (xy 140.97 29.21)
 		)
 		(stroke
@@ -2344,6 +2978,16 @@
 			(type default)
 		)
 		(uuid "f4be52bb-5ad9-456b-92af-1613cf1800bd")
+	)
+	(wire
+		(pts
+			(xy 196.85 88.9) (xy 196.85 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc1d8540-9916-4549-a91f-86590ab7ff04")
 	)
 	(wire
 		(pts
@@ -10766,7 +11410,25 @@
 			"AABJAAAAdQAAAEcAAABJAAAARgAAAGMAAABVAAAAMgAAAG8AAABwAAAAOAAAADEAAABUAAAASwAA"
 			"AGgAAABGAAAAawAAADEAAABEAAAAUgAAAE4AAAA4AAAAbgAAAGoAAABaAAAAQwAAAEQAAABiAAAA"
 			"UwAAAGIAAAAxAAAAYwAAADUAAABsAAAANQAAADgAAABCAAAAbwAAADMAAABJAAAAVAAAAFcAAABP"
-			"AAAATQAAAE4AAA=="
+			"AAAATQAAAE4AAABhAAAASAAAAGgAAAA0AAAAYQAAAFAAAABOAAAAaQAAAHMAAABsAAAAeAAAAE0A"
+			"AAB5AAAAMQAAAEoAAABJAAAAbwAAAHoAAABZAAAAKwAAAHgAAABPAAAAZwAAAEQAAABNAAAAMgAA"
+			"AGgAAAB0AAAARgAAAEMAAABuAAAAOAAAAFQAAABMAAAAOQAAADIAAAB5AAAAaAAAAEUAAABrAAAA"
+			"UQAAAEMAAABTAAAAawAAADYAAABBAAAATwAAAEgAAABrAAAASgAAAHEAAAAyAAAAUQAAAHYAAABE"
+			"AAAASgAAAHkAAABMAAAAUQAAAFUAAABHAAAAWgAAAGYAAABMAAAAVwAAAHQAAABnAAAAUgAAAHMA"
+			"AABiAAAAVgAAAGkAAABUAAAAUwAAAE4AAABRAAAAbAAAAHYAAABYAAAAbAAAADUAAABYAAAAZwAA"
+			"ACsAAABtAAAANwAAADkAAAA4AAAAOAAAAFgAAABKAAAAeQAAAGUAAABYAAAAbAAAADEAAABjAAAA"
+			"VAAAAFUAAABaAAAAWAAAADIAAABtAAAAaQAAACsAAABYAAAAegAAAFIAAABIAAAAdgAAAFEAAABa"
+			"AAAAUgAAAEIAAABsAAAARgAAAFMAAABzAAAAVQAAAFkAAABoAAAARgAAAGsAAABRAAAAbgAAAFEA"
+			"AAArAAAAdwAAADgAAABnAAAAOAAAAEoAAAB6AAAAagAAAGwAAABDAAAAYQAAAEwAAABWAAAAYQAA"
+			"AHIAAABWAAAAYQAAAFIAAABHAAAAUgAAAHMAAABRAAAAawAAADcAAABoAAAASQAAAGEAAABhAAAA"
+			"VwAAADEAAABTAAAAbQAAAGEAAABYAAAAdQAAAE8AAAA1AAAAZAAAAEkAAABWAAAAeQAAAEoAAAB0"
+			"AAAAVQAAAFIAAABrAAAAZAAAAFoAAAAzAAAAQgAAAEcAAABtAAAANAAAAEMAAABDAAAAQwAAAFIA"
+			"AABmAAAASgAAAGcAAABBAAAAVQAAAFkAAABhAAAANwAAAHEAAABTAAAAaQAAAFEAAABXAAAAcgAA"
+			"AFMAAABMAAAAUAAAAE0AAABnAAAAQQAAAHMAAABxAAAAMgAAAG8AAAA2AAAAbgAAAGYAAAByAAAA"
+			"RwAAAHQAAAAxAAAAcwAAAHQAAABGAAAARAAAAGcAAAAvAAAATwAAAHcAAABuAAAATwAAAEgAAAAr"
+			"AAAAegAAAHYAAABhAAAAMgAAADIAAABlAAAAUAAAAFgAAABzAAAAKwAAAFcAAAB5AAAAeQAAAFcA"
+			"AABaAAAAWAAAAGsAAAA5AAAAbQAAADEAAABWAAAAVgAAAE0AAAA1AAAANQAAAE0AAABUAAAAOAAA"
+			"ADgAAAB2AAAAeg=="
 		)
 	)
 	(image
@@ -12323,7 +12985,25 @@
 			"ZnVvVnkzSkpKdm1qcjU4b3ZiZXhmVldPdXlWVlBkaDJDM3JaaHR3YlMyRjFBKzcwK0tHZ1R6MzFx"
 			"ejVDNHBTeUh3K0Z3T0J3WlJ4NzNucGhXSDdPOWllNTQxR05mZXlVUVRWYUZ4dWtxZlMyM1VXc1ly"
 			"K1NTZnROSWFPeU5neVdDdnBKWWI5cXo2YTJZb0hHRlF3QUFJQUJKUkVGVXA2YVozYm9wOC9JYXBz"
-			"YUdyTm1xYWlqbmFhcGc5cnZuZ0RaTXMzWUNRY0k0bnUrbWgvalgvLw=="
+			"YUdyTm1xYWlqbmFhcGc5cnZuZ0RaTXMzWUNRY0k0bnUrbWgvalgvL3lmNTArL2Yvcnd1eXJmdm4w"
+			"WFJQNyszLzh0d09Qam95QzhrNEduTWRlWG9HSmpMQTZ3RE1SV3p6VFVrTjM2eHA3ZFpmT3ZZdkhx"
+			"YmlkWnBSVEhCZFhYOWRiWVZ0QTF2eFVSbVpkRklDSVFWcGQyM3VhYW84ZXMvTnpnMHY5bVQycXVy"
+			"YXczczVLc1V4bVZ1TTh0M2VzS1M1cjdCbTZlZlhhd2ViVG43cFg2Tjk4SSs2VzR5cVNQV2ZYVmdU"
+			"N0l1YW5xUWY0T2g4UGhjRGdzcmtobGV1Nk85Vy8yd1dMOVpqN0gzc0VtdmU3b01leXo3QUlkSHRm"
+			"bmdMZzNaZDFDU3BvYWtsU05pcW9DeW1tU2FnTENvdXBoSW5OOEd5Vmxmano3Mk9jMUJCbEVCTlRp"
+			"UjVZd0RrTUlnOFowZC9lR0lvK1BqK2ZUL2YzOS9YVDUvT0gzMzVIU3c4T0Q2RUNFdDI5Vmhqdkln"
+			"TkM2ZTErTXZsZWJKWTZLelFHOUVZMDVCeUFWYlRzMFR6WW9JQXJNd1h0V1FSaHJKbG16am5ubkti"
+			"S3ZmUTRPb3hTUW9Jb2lEMHBwa1RuOVN5V284YldyYWxJQzdXeXNheWJWaEdpNnBlbWN4bkt6ck4x"
+			"eTdxWTVxd25mV1VmMndmNStrd203aFpHK25yZlRjWWZENFhBNEhOOFN1OFJkT3pFdTF1NUErMUZO"
+			"M0ZDS2h1WDBaa0R2VExYUDlrOXQwaUJzU1dVYTdyajVxYjNlSTZaN0d2Y1FRblc2RzZkc1RCcFZG"
+			"U3c2N0QxSDQxYTdDbkhIYklwa3E0UU1oWGNoYU9EYkgzNTZmUGdzTXY3dzdxK244L0R3NmYzalF4"
+			"U1J4OGZIais4Ly9IYjY1WFM2Q3hoT2R6S2NBd1l4Y1d4dVFrOGNhOXQ3UnQ3WU9adHArdnlyc2Rm"
+			"TUU2NURMczdKVm83MmZFZVhUWTFMYmVkWHhheEV0L2Rsam03RXRZK2NhVG50MUVwYytqQ1JWNXQy"
+			"Q3pibnc1cVhiMnZjN1FSdU11bS9GTGQ4WmV5bi9kZm5CUTI1SlgyekF2Q3NIQndPaDhQaGNCd1Jk"
+			"Mnl4ek0zbzNaVmJOTlI4ay8vWkRCdTlCRkRpdUZkT2ZFQXNOdjNsOWUxZWxQSCtLUGhOczZIUC93"
+			"QXJJMGR6SUpFY0JSeEpFOGt3aUdvMERWMEVIZ2tDSnBDcVpFSlZ0aFNTU2xIRzRySUhWQ2t5VU1K"
+			"d3V2dGhrSWZQR3ArZXhuRU1nU2xPbDh2bHQ5OStrM0RXSkQvOHlCOXlpQm9TenlGSU5WWkp3eGNy"
+			"TnUyaVpwZ09PRm5PUEJtNlhBUFhORFpEWXppWllTckdFb0E1cE9OQw=="
 		)
 	)
 	(image
@@ -12980,7 +13660,25 @@
 			"gGCHX3tjAAAwf1Jfe2MAAEChlV97YwAAEDCZX3tjAACAnqBfe2MAALCgYl97YwAAcJqKX3tjAACA"
 			"/Mpee2MAANCan1p7YwAAULqMX3tjAAAAn5Bae2MAACANVlp7YwAAcJuWX3tjAADg8pNae2MAAPBw"
 			"n1p7YwAAQNWbX3tjAABgTpZfe2MAAABFVl97YwAA0EqCX3tjAADg1IZfe2MAAHDWi197YwAAwBya"
-			"X3tjAACwsYhfe2MAAFDdiFp7YwAAAJJzXw=="
+			"X3tjAACwsYhfe2MAAFDdiFp7YwAAAJJzX+RaAABQCaZH5FoAAHBLxUbkWgAAwEjQR+RaAABgyndD"
+			"5FoAAJBGeEPkWgAAIGK9R+RaAABQBLZH5FoAALDB2EPkWgAAoBt+Q+RaAADATsFH5FoAABBmwEbk"
+			"WgAA4Np5Q+RaAABw4XlD5FoAAIBQxUbkWgAA0CeiR+RaAACwEbdH5FoAAODBxUfkWgAA4NfzRuRa"
+			"AADg7vBG5FoAAKA0jEfkWgAAcE/SQ+RaAAAAGLZH5FoAAJDHfkPkWgAA0BzHRuRaAACwaM1H5FoA"
+			"APCQz0PkWgAAoEXNQ+RaAACwQLNH5FoAABC950bkWgAAgIx3Q+RaAACQjrhH5FoAAOCBrkfkWgAA"
+			"EPjHR+RaAAAAzctH5FoAANCd1EPkWgAA8F7KR+RaAADA2u1G5FoAAACkwEbkWgAA8HOqR+RaAACQ"
+			"f7tH5FoAACBswkfkWgAA4L7ER+RaAADA/r1H5FoAALAMz0fkWgAAsE+jR+RaAADw+c1D5FoAAFBH"
+			"iEPkWgAAUNuqR+RaAABgsbNH5FoAAGCsukfkWgAAcBjKQ+RaAABAmbZH5FoAABBazkfkWgAAYA7N"
+			"Q+RaAACQhLxH5FoAAJCwukfkWgAAQHzmRuRaAAAA1vBG5FoAAIBWv0bkWgAAIOyAQ+RaAADgVLNH"
+			"5FoAABB4tkfkWgAAIB7FRuRaAADwcMRG5FoAADD7gEfkWgAAIF6RR+RaAABgIahH5FoAADBIyEfk"
+			"WgAAELuPR+RaAACQzKdH5FoAAGDrkEfkWgAAwC15Q+RaAAAQrcBH5FoAAPCAeEPkWgAAYA70RuRa"
+			"AABAncNH5FoAAIBE8EbkWgAAsIaUR+RaAAAQiL9H5FoAAHD4rEfkWgAAENi4R+RaAADw1sNG5FoA"
+			"AODgkUfkWgAAcOeRR+RaAACQ7sVG5FoAAIDr0EfkWgAAMIm1R+RaAACQOYBH5FoAACCYwEbkWgAA"
+			"gAihR+RaAACAv7RH5FoAANCJokfkWgAAYDbGRuRaAAAwT8pD5FoAAJClq0fkWgAAkDKiR+RaAADA"
+			"p/NG5FoAAMAboUfkWgAA0IuuR+RaAADgGMRG5FoAAOB5yEfkWgAAoEvRQ+RaAADwKe9G5FoAAKB+"
+			"wEbkWgAAIP7LR+RaAABgrLVH5FoAABDHukfkWgAA0JarR+RaAACw/XlD5FoAAEA+rUfkWgAAANrq"
+			"RuRaAACQ749H5FoAAABhpEfkWgAAQDC1R+RaAABgvqtH5FoAAECO8kbkWgAAIPTPR+RaAADgi4dH"
+			"5FoAAOCak0fkWgAAULG2R+RaAABgg5RH5FoAABC1dUPkWgAAQMW/RuRaAACAkKNH5FoAABBjqUfk"
+			"WgAAcDm6R+RaAACw1nND5FoAAOCpkUfkWg=="
 		)
 	)
 	(image
@@ -14433,7 +15131,25 @@
 			"wZLojz9SSLlAHJcWwSavjj/Fwt4+75hxvVUBZj8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////"
 			"///////////W7/c+f3OGvboqkUACAAAA7AzEwf38SMJVL0dCznt2QgAAAADwAAAAAAAAACAAAAAA"
 			"AAAAPD22aH1jAAAQzQNfe2MAAAAAAAAAAAAAsQkFAAAAAACQ3Ahfe2MAACDrTyeUeQAAAAAAAAAA"
-			"AAAAAAAAAAAAAJheuUAiJRfBokWOPwUAAACgxeHrk3kAADAMEVl7YwAAAAAAAA=="
+			"AAAAAAAAAAAAAJheuUAiJRfBokWOPwUAAACgxeHrk3kAADAMEVl7YwAAAAAAAG8AAAAwAAAASQAA"
+			"AE8AAAAyAAAAZQAAAEwAAAA0AAAAWQAAAGkAAABkAAAAcwAAADQAAAAxAAAAdAAAAG4AAABRAAAA"
+			"TQAAAGcAAABZAAAAMwAAAEsAAABUAAAARgAAAFoAAABnAAAAWAAAAGUAAABIAAAAQQAAAGIAAABn"
+			"AAAASwAAAHUAAABtAAAAZgAAAFgAAAAxAAAAKwAAADkAAAB2AAAAVAAAAEYAAAB5AAAANAAAAHYA"
+			"AABsAAAAbwAAAGgAAABnAAAATwAAAFIAAABvAAAAOAAAAGUAAABkAAAAYwAAAFkAAAA3AAAALwAA"
+			"AGQAAAAyAAAAOQAAAHYAAABmAAAAcwAAAFAAAABMAAAAdQAAAGEAAABMAAAAbAAAADQAAAB2AAAA"
+			"eQAAADgAAABNAAAANgAAADkAAAB2AAAAYwAAAEYAAAB3AAAAMAAAAHQAAABwAAAAYQAAADEAAABN"
+			"AAAAdQAAAG4AAABUAAAAKwAAAGIAAABsAAAAcwAAAGgAAABoAAAAdgAAADMAAABkAAAAbgAAAFoA"
+			"AAB5AAAAVAAAAHYAAABGAAAAWgAAAEQAAAA0AAAANwAAAFAAAAB6AAAAOAAAAC8AAAAyAAAATgAA"
+			"ADMAAABmAAAARwAAAGcAAAA0AAAASAAAADMAAABXAAAANgAAAG0AAABUAAAARQAAAEoAAABLAAAA"
+			"QwAAAHkAAABhAAAARwAAAGoAAABsAAAAKwAAACsAAABxAAAASQAAAE0AAABiAAAAOQAAAHIAAABz"
+			"AAAAYQAAAFoAAABEAAAAYQAAADkAAAAzAAAAaAAAADQAAABPAAAASgAAAHAAAABQAAAASgAAAFQA"
+			"AAAzAAAANwAAADAAAABJAAAANgAAAFgAAABVAAAANgAAADkAAABlAAAAdgAAADYAAAA3AAAAcAAA"
+			"AE8AAABzAAAAbQAAAEkAAAAwAAAASAAAAEYAAABOAAAAcQAAAHIAAABQAAAATQAAAEgAAAB0AAAA"
+			"MgAAADcAAABkAAAAZQAAAFgAAABDAAAALwAAAE4AAAB4AAAANgAAAEQAAAAxAAAAcQAAAEEAAABN"
+			"AAAAYwAAAFAAAABEAAAAVwAAACsAAAByAAAAQwAAAHEAAAAzAAAAVwAAAGUAAABBAAAAVgAAAFIA"
+			"AABZAAAAUgAAAFEAAABTAAAATwAAAEYAAABsAAAAVwAAAFUAAABVAAAAcQAAADMAAABqAAAANAAA"
+			"AGcAAABvAAAAQQAAAE0AAABLAAAAdwAAAEUAAABkAAAAeAAAAG4AAAA3AAAAQgAAAE4AAAAyAAAA"
+			"awAAAG0AAABoAAAAbAAAAFYAAAA3AAAAeAAAAFgAAABkAAAAcwAAACsAAAB2AA=="
 		)
 	)
 	(image
@@ -16011,7 +16727,25 @@
 			"MDlNSWdYWHIxa1Z4SUlRQXptVlp4amxQMDNUMG4xSktnaUF3eGtncE1jYWpGWjZpS0p4eldUYW8x"
 			"UkpDVVpyRy8vc3RiOXEwYVV5STh1cXJyelJLckN3dkUwSkd6clhPR0U3eHl1S3Bjelp2Qk01b0Rk"
 			"Nys5cmRzT2U5Y2JWU2owY2l5YkdTVmNmRGd3ZTNidDU4NGZuSis3dFF2dnVhMTUxOTRNV1loaXhJ"
-			"RElPV0IxcnJWYWsxT1RIejhZeDliUHpYOTJVOTkrbW1YWGJLNHNJQVJ3Z2h4enFFSA=="
+			"RElPV0IxcnJWYWsxT1RIejhZeDliUHpYOTJVOTkrbW1YWGJLNHNJQVJ3Z2h4enFFSFZodEtLVUpJ"
+			"U2dtQnd4QkZVY2dvTVVvY08zcndkYTk5elVWYnozSEtSSnhaNjZ4MWowUkNBTllrbWI3TE9QTW5a"
+			"Z0FRV2dXVVdXZWQwVWVQSG4zV0RUZTAyKzNwbWFrM3ZQNjFFeE5qdTNkdWYvcjFWMTUvN1ZYT2Fr"
+			"eDhWUlQ5UVhkNmVyb3M4OUZjTmFjWUFEQWFPa09FSVlUS1VpaWxHbzJHMWhwWVU2dlZpaXpYMW9R"
+			"UkYwSlk3L004bjVpYTdQZjduREpqVEJTSEFBQlZpU3pMbXVOakk2TFdhNDJWbFpWR284VjRNajY1"
+			"N3RUYzR0di80QS8vK1F1M3pTLzBnb0JnR29oY0JFRmtqTEZHdFZxTklLUUxwMDc5M3R0KzQzVy8r"
+			"c3NIOSsvSysxM3ZiYnZkanVOMHo1NDlPM2Z1M3IxcjM2bWx6ZzAzM3ZUTGIvei9UcHhjak90TjYy"
+			"R3QyY3F5ck5rY1M2TDRZN2ZjOGsrZi90eTk5OTZERUhBQWJOKysvVU1mK2Z0ZGUvY1RGbEJLaFpM"
+			"R2dkSG1VY2o1cVZPbk5xNmZpUmp0dEpkLy82MXZ2ZTZhSzZ1aVFoZ0VRU0NsREhqZ3ZETktjODRm"
+			"MjRwWW00YjVidURNdnhNQzRDSFFTbEZLbmJXTlJ1T1RuL2lFbEZJcGM5Zlh2NjZWZWVZTnp6eCsv"
+			"TVRCZzRmV1RhOXoxakxPd3lBb3l5SUlRa3FKMWpvS0ErZGNwOU9Kb3FnU2xWS2FFTXdZSHc2SFJW"
+			"RXdRcklzSzR1Q00yYXM4OEFaYXltbHZYNmZVaHJ3NE9qUm85NEQ3NTBVQWlHRUVRckMwRGszSEE2"
+			"U09BbkRhR1ZsZWREdlQwMU92dUFGTDRqamNPK2VuZjErRVlVVUFBaWMxVXBNVFUxRUlaODl1ZkR5"
+			"Ly82anYvdld0MVRGOElINzcwTUVUVTFNZVE4V0Y1ZS9kdnUvekM4dUw4NHZiWDNxcGEvNG1WL29a"
+			"VVdZTkFnUGVCUkRRZ2xqR0tJZER6LzhEeC8veER2ZTl2dG5iOTdrakhQT2JWdy9jOU5OejB2VDJ2"
+			"NTllNHFpb0JnVEFpRndCQ0t0SklGd2ZLdzVlL3pZZTkvem5zc3V2ZGdhaFNGa2xIcmdHV1Vqa1J0"
+			"Q3lPcU4xMXIwT0YvQk5SSitKM0hHazlBRGkrQklVdFpEZ0JualgvemlsL1lmT0lnUXhoZ2ZQejc3"
+			"OFBZZDExOTdQUVR3d1czYk1NTFRNMU9Na2JJVVVSVDNCd05sRklSQVNObHMxS1VVQUVGS2lGSXlp"
+			"aUlJQWFYRWFGdFA2OWE2SU9EOVFYOXlZbXFRWlVFUU51ck5PRXFxdk55d1lhYlphQg=="
 		)
 	)
 	(image
@@ -21263,7 +21997,25 @@
 			"AABvAAAARAAAAEQAAAA2AAAAcAAAAHIAAABlAAAAdAAAAGcAAABzAAAAdwAAAHgAAABJAAAAeQAA"
 			"ADMAAAA1AAAAWgAAAEwAAABaAAAAZQAAAHoAAABSAAAAcwAAAHIAAABCAAAAMgAAAHIAAAB4AAAA"
 			"dAAAAC8AAAB1AAAAagAAAFAAAAB2AAAAdgAAAGoAAABVAAAAaQAAAHkAAAAvAAAAZgAAAE8AAABa"
-			"AAAAZwAAAG0AAAB5AAAATAAAAEMAAA=="
+			"AAAAZwAAAG0AAAB5AAAATAAAAEMAAABGAAAAbgAAAGkAAABrAAAAZwAAAEIAAABPAAAASQAAAEEA"
+			"AABFAAAAQQAAADEAAABaAAAAVQAAAEkAAAByAAAAMQAAAHcAAAB2AAAAdgAAAHMAAABnAAAAZgAA"
+			"AHQAAABPAAAALwAAAE8AAABOAAAAZgAAAC8AAAA0AAAALwAAAEMAAABQAAAALwAAADMAAABEAAAA"
+			"WgAAADEAAAArAAAANQAAAEUAAABtAAAATQAAAEQAAAB5AAAASQAAAFAAAABCAAAASQAAAEsAAABr"
+			"AAAAcwAAAFcAAAA4AAAAaQAAAHkAAABYAAAARQAAAFUAAAA2AAAALwAAAEcAAAArAAAAZQAAAGwA"
+			"AAAyAAAAcwAAAGIAAABtAAAAOAAAADUAAABCAAAANAAAAGcAAABZAAAASgAAAHIAAABDAAAAUAAA"
+			"AHIAAABpAAAATQAAAEEAAAA0AAAAbAAAADgAAABXAAAAMgAAAEYAAABrAAAAWAAAAEYAAABIAAAA"
+			"QgAAAGcAAAByAAAAUwAAADAAAABXAAAAaQAAAFoAAABkAAAAdQAAAHEAAABRAAAARAAAADEAAABw"
+			"AAAAZAAAAG8AAABhAAAARAAAAHUAAABKAAAAagAAAHQAAAAxAAAAMgAAAFAAAAAwAAAALwAAAGEA"
+			"AABaAAAAdAAAAEkAAABTAAAAYgAAAG4AAABiAAAAUQAAAGgAAABwAAAAUgAAAFIAAABzAAAAbQAA"
+			"AEUAAABnAAAAQQAAAGsAAABJAAAARQAAAGcAAABBAAAAZwAAAEcAAABBAAAARQAAAEMAAABVAAAA"
+			"QQAAAEkAAABwAAAASAAAAE8AAABLAAAAcgAAADIAAABKAAAARAAAAHUAAABEAAAAdAAAAGIAAABk"
+			"AAAAZAAAAGsAAABxAAAAQwAAAEMAAAB3AAAAYwAAAEkAAAByAAAAUQAAAFIAAAA0AAAATwAAADQA"
+			"AAB3AAAAcwAAAEgAAABzAAAASAAAAGwAAABGAAAAVQAAAEIAAABPAAAANgAAADcAAABaAAAARQAA"
+			"AGUAAAB4AAAATQAAAEMAAABRAAAAUQAAAGwAAABhAAAAaAAAAEoAAAArAAAAOAAAAGgAAAB0AAAA"
+			"UAAAAFAAAABuAAAAVAAAAG0AAAB2AAAAaQAAAGYAAABlAAAALwAAAGwAAABiAAAARQAAAEUAAABF"
+			"AAAASgAAAHcAAABCAAAAcgAAAGQAAAAyAAAAZAAAADUAAABhAAAAegAAACsAAABkAAAAcAAAAHcA"
+			"AABVAAAAMQAAAFUAAAA1AAAAUwAAAGcAAABoAAAAQgAAAE8AAABTAAAASwAAAHEAAABNAAAAVQAA"
+			"AGEAAABwAAAAZwAAACsAAABFAAAANg=="
 		)
 	)
 	(label "PA2"
@@ -21605,6 +22357,73 @@
 			(justify right bottom)
 		)
 		(uuid "ff05a3d6-4137-4feb-a8df-700b4b378d07")
+	)
+	(symbol
+		(lib_id "Motor_ScrewsHole:ScrewM2")
+		(at 234.95 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02a4a26e-8549-4a11-adb3-fc3d8119b77b")
+		(property "Reference" "Scr8"
+			(at 238.76 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 238.76 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Motor_Screws:ScrewM2"
+			(at 234.696 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 234.95 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND"
+			(uuid "8c23960d-fbd9-4362-8700-6d53b3ea252c")
+		)
+		(instances
+			(project "MiniDrone_aDat"
+				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3/0ccdd419-ea7c-46e7-8d9b-2151296b698c"
+					(reference "Scr8")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -21951,6 +22770,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Motor_ScrewsHole:ScrewM2")
+		(at 196.85 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c20e40f-6f01-47e0-9f6c-f6376f292775")
+		(property "Reference" "Scr1"
+			(at 200.66 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 200.66 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Motor_Screws:ScrewM2"
+			(at 196.596 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND"
+			(uuid "a99f2763-ccf5-450a-a668-bc1ebb86e7f6")
+		)
+		(instances
+			(project ""
+				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3/0ccdd419-ea7c-46e7-8d9b-2151296b698c"
+					(reference "Scr1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor_ScrewsHole:ScrewM2")
+		(at 196.85 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c5ead12-65bb-4658-acea-473d1213669e")
+		(property "Reference" "Scr13"
+			(at 200.66 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 200.66 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Motor_Screws:ScrewM2"
+			(at 196.596 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND"
+			(uuid "b13b17a6-e61f-433b-814f-8a0acdba8b58")
+		)
+		(instances
+			(project "MiniDrone_aDat"
+				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3/0ccdd419-ea7c-46e7-8d9b-2151296b698c"
+					(reference "Scr13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x04_Counter_Clockwise")
 		(at 53.34 31.75 0)
 		(unit 1)
@@ -22031,6 +22984,73 @@
 			(project ""
 				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3/0ccdd419-ea7c-46e7-8d9b-2151296b698c"
 					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor_ScrewsHole:ScrewM2")
+		(at 196.85 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "229302d4-c1fa-4820-ab91-9d16e26c4809")
+		(property "Reference" "Scr9"
+			(at 200.66 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 200.66 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Motor_Screws:ScrewM2"
+			(at 196.596 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND"
+			(uuid "3966ac36-6e9a-4a87-abb8-b51bb33eeb5d")
+		)
+		(instances
+			(project "MiniDrone_aDat"
+				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3/0ccdd419-ea7c-46e7-8d9b-2151296b698c"
+					(reference "Scr9")
 					(unit 1)
 				)
 			)
@@ -22163,6 +23183,341 @@
 			(project ""
 				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3/0ccdd419-ea7c-46e7-8d9b-2151296b698c"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor_ScrewsHole:ScrewM2")
+		(at 196.85 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b143174-3c1a-46f2-bd72-6165cffac5d0")
+		(property "Reference" "Scr5"
+			(at 200.66 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 200.66 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Motor_Screws:ScrewM2"
+			(at 196.596 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND"
+			(uuid "49073bc4-3e54-4c6a-8d38-8b195122e7be")
+		)
+		(instances
+			(project "MiniDrone_aDat"
+				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3/0ccdd419-ea7c-46e7-8d9b-2151296b698c"
+					(reference "Scr5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor_ScrewsHole:720DCMotor")
+		(at 209.55 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2bcda1ea-06f4-429a-90a8-dbf5d465b962")
+		(property "Reference" "Mt2"
+			(at 213.36 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 213.36 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Motor_Screws:720DCMotor"
+			(at 209.55 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 209.55 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND"
+			(uuid "3295d7ab-d9aa-42af-887b-63c0b2226832")
+		)
+		(instances
+			(project "MiniDrone_aDat"
+				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3/0ccdd419-ea7c-46e7-8d9b-2151296b698c"
+					(reference "Mt2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor_ScrewsHole:ScrewM2")
+		(at 234.95 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e9fdcab-a990-434d-9c68-b11dc251501f")
+		(property "Reference" "Scr4"
+			(at 238.76 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 238.76 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Motor_Screws:ScrewM2"
+			(at 234.696 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 234.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND"
+			(uuid "9aa267f2-3c32-4927-894b-48789b5081c4")
+		)
+		(instances
+			(project "MiniDrone_aDat"
+				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3/0ccdd419-ea7c-46e7-8d9b-2151296b698c"
+					(reference "Scr4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor_ScrewsHole:ScrewM2")
+		(at 209.55 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30261125-0ff4-4f8d-9383-c4feedcc5c23")
+		(property "Reference" "Scr6"
+			(at 213.36 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 213.36 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Motor_Screws:ScrewM2"
+			(at 209.296 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 209.55 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND"
+			(uuid "298688cb-382c-4187-b804-e72b13ebbebe")
+		)
+		(instances
+			(project "MiniDrone_aDat"
+				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3/0ccdd419-ea7c-46e7-8d9b-2151296b698c"
+					(reference "Scr6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor_ScrewsHole:ScrewM2")
+		(at 209.55 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "383a60ab-e4cc-4dd3-b28e-514eb93f43ef")
+		(property "Reference" "Scr14"
+			(at 213.36 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 213.36 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Motor_Screws:ScrewM2"
+			(at 209.296 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 209.55 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND"
+			(uuid "7a1db4e2-3834-47f9-bc9b-7d46215097f4")
+		)
+		(instances
+			(project "MiniDrone_aDat"
+				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3/0ccdd419-ea7c-46e7-8d9b-2151296b698c"
+					(reference "Scr14")
 					(unit 1)
 				)
 			)
@@ -22303,6 +23658,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Motor_ScrewsHole:720DCMotor")
+		(at 222.25 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "595bd932-c1ad-45f3-baef-dcfcaa712b4d")
+		(property "Reference" "Mt3"
+			(at 226.06 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 226.06 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Motor_Screws:720DCMotor"
+			(at 222.25 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND"
+			(uuid "5378d64e-bdac-49a8-a984-c1cff7d36234")
+		)
+		(instances
+			(project "MiniDrone_aDat"
+				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3/0ccdd419-ea7c-46e7-8d9b-2151296b698c"
+					(reference "Mt3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 39.37 60.96 0)
 		(unit 1)
@@ -22436,6 +23858,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Motor_ScrewsHole:ScrewM2")
+		(at 234.95 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "715bcd70-c37d-4d28-89b6-fa449b0b4727")
+		(property "Reference" "Scr12"
+			(at 238.76 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 238.76 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Motor_Screws:ScrewM2"
+			(at 234.696 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 234.95 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND"
+			(uuid "9b3f23a8-0eb9-4e26-b974-91b7762c97d6")
+		)
+		(instances
+			(project "MiniDrone_aDat"
+				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3/0ccdd419-ea7c-46e7-8d9b-2151296b698c"
+					(reference "Scr12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor_ScrewsHole:ScrewM2")
+		(at 209.55 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7766c544-ed95-45ee-8b60-a4861ace83c6")
+		(property "Reference" "Scr2"
+			(at 213.36 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 213.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Motor_Screws:ScrewM2"
+			(at 209.296 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 209.55 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND"
+			(uuid "f72be09a-d9c2-495b-b4a1-deced21ba03b")
+		)
+		(instances
+			(project "MiniDrone_aDat"
+				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3/0ccdd419-ea7c-46e7-8d9b-2151296b698c"
+					(reference "Scr2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 162.56 171.45 270)
 		(unit 1)
@@ -22497,6 +24053,73 @@
 			(project "MiniDrone_aDat"
 				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3/0ccdd419-ea7c-46e7-8d9b-2151296b698c"
 					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor_ScrewsHole:ScrewM2")
+		(at 209.55 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c8d6e5c-aa19-4ce9-80a6-9fec84e8259d")
+		(property "Reference" "Scr10"
+			(at 213.36 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 213.36 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Motor_Screws:ScrewM2"
+			(at 209.296 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 209.55 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND"
+			(uuid "15435ad3-5b08-4165-bdbf-5a06059d581b")
+		)
+		(instances
+			(project "MiniDrone_aDat"
+				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3/0ccdd419-ea7c-46e7-8d9b-2151296b698c"
+					(reference "Scr10")
 					(unit 1)
 				)
 			)
@@ -22715,6 +24338,273 @@
 		)
 	)
 	(symbol
+		(lib_id "Motor_ScrewsHole:ScrewM2")
+		(at 222.25 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a26a22f5-8481-4d0a-8814-12a472972d97")
+		(property "Reference" "Scr7"
+			(at 226.06 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 226.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Motor_Screws:ScrewM2"
+			(at 221.996 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND"
+			(uuid "afb87742-ba24-4f82-8934-cf43d807b484")
+		)
+		(instances
+			(project "MiniDrone_aDat"
+				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3/0ccdd419-ea7c-46e7-8d9b-2151296b698c"
+					(reference "Scr7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor_ScrewsHole:ScrewM2")
+		(at 222.25 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5c381e5-b8ea-469b-a861-02cab0497592")
+		(property "Reference" "Scr3"
+			(at 226.06 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 226.06 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Motor_Screws:ScrewM2"
+			(at 221.996 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND"
+			(uuid "a0186151-c63f-4e31-9197-692e8224af6d")
+		)
+		(instances
+			(project "MiniDrone_aDat"
+				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3/0ccdd419-ea7c-46e7-8d9b-2151296b698c"
+					(reference "Scr3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 184.15 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b60e7e6c-9b9f-48fe-b672-2a1ec45db7a4")
+		(property "Reference" "#PWR042"
+			(at 184.15 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 184.15 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed9be843-d45f-4e88-aaf8-4c521dd0f595")
+		)
+		(instances
+			(project "MiniDrone_aDat"
+				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3/0ccdd419-ea7c-46e7-8d9b-2151296b698c"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor_ScrewsHole:ScrewM2")
+		(at 234.95 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "badb6606-c6ce-4345-a8f4-6cf483403f9c")
+		(property "Reference" "Scr16"
+			(at 238.76 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 238.76 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Motor_Screws:ScrewM2"
+			(at 234.696 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 234.95 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND"
+			(uuid "bc8a629f-202d-4b8a-a212-6b43116ce6b7")
+		)
+		(instances
+			(project "MiniDrone_aDat"
+				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3/0ccdd419-ea7c-46e7-8d9b-2151296b698c"
+					(reference "Scr16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 186.69 151.13 0)
 		(unit 1)
@@ -22779,6 +24669,73 @@
 			(project "MiniDrone_aDat"
 				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3/0ccdd419-ea7c-46e7-8d9b-2151296b698c"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor_ScrewsHole:ScrewM2")
+		(at 222.25 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1fe29fd-be1f-4305-af99-a25a7543d11b")
+		(property "Reference" "Scr15"
+			(at 226.06 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 226.06 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Motor_Screws:ScrewM2"
+			(at 221.996 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND"
+			(uuid "94ad04c5-3e61-421f-9bd4-dfba32fa6c66")
+		)
+		(instances
+			(project "MiniDrone_aDat"
+				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3/0ccdd419-ea7c-46e7-8d9b-2151296b698c"
+					(reference "Scr15")
 					(unit 1)
 				)
 			)
@@ -22912,6 +24869,73 @@
 			(project "MiniDrone_aDat"
 				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3/0ccdd419-ea7c-46e7-8d9b-2151296b698c"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor_ScrewsHole:ScrewM2")
+		(at 222.25 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7054828-6e5f-4748-8614-b4779806648f")
+		(property "Reference" "Scr11"
+			(at 226.06 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 226.06 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Motor_Screws:ScrewM2"
+			(at 221.996 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND"
+			(uuid "1669a1e2-d61b-4c05-a30c-7abd06725132")
+		)
+		(instances
+			(project "MiniDrone_aDat"
+				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3/0ccdd419-ea7c-46e7-8d9b-2151296b698c"
+					(reference "Scr11")
 					(unit 1)
 				)
 			)
@@ -23060,6 +25084,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Motor_ScrewsHole:720DCMotor")
+		(at 234.95 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0fb4991-da7b-4078-90d8-af184401ff28")
+		(property "Reference" "Mt4"
+			(at 238.76 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 238.76 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Motor_Screws:720DCMotor"
+			(at 234.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 234.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND"
+			(uuid "f679beb0-4f7e-43a2-8632-53f42de412bd")
+		)
+		(instances
+			(project "MiniDrone_aDat"
+				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3/0ccdd419-ea7c-46e7-8d9b-2151296b698c"
+					(reference "Mt4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 186.69 142.24 0)
 		(unit 1)
@@ -23124,6 +25215,73 @@
 			(project "MiniDrone_aDat"
 				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3/0ccdd419-ea7c-46e7-8d9b-2151296b698c"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor_ScrewsHole:720DCMotor")
+		(at 196.85 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f88ff649-cd64-4762-9e26-af32a82c7991")
+		(property "Reference" "Mt1"
+			(at 200.66 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 200.66 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Motor_Screws:720DCMotor"
+			(at 196.85 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND"
+			(uuid "1cf207d8-60be-4097-be90-e41013289f2e")
+		)
+		(instances
+			(project "MiniDrone_aDat"
+				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3/0ccdd419-ea7c-46e7-8d9b-2151296b698c"
+					(reference "Mt1")
 					(unit 1)
 				)
 			)
