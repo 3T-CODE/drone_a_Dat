@@ -1,4 +1,4 @@
-24748233460948041
+24749985135530510
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -66200,6 +66200,13 @@ PillarScrew10mmM3
 1
 Motor_Screws
 PillarScrew12mmM3
+
+
+0
+1
+1
+Motor_Screws
+ScrewM2
 
 
 0

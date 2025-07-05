@@ -147,12 +147,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Motor_ScrewsHole:PillarScrews5mmM3"
+		(symbol "Motor_ScrewsHole:ScrewM2"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Scr"
-				(at 0 3.81 0)
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -167,7 +167,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Motor_Screws:PillarScrew5mmM3"
+			(property "Footprint" "Motor_Screws:ScrewM2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -194,10 +194,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "PillarScrews5mmM3_0_1"
+			(symbol "ScrewM2_0_1"
 				(polyline
 					(pts
-						(xy -1.27 0) (xy 0 0)
+						(xy 0 0) (xy -1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -263,27 +263,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-			(symbol "PillarScrews5mmM3_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -1551,140 +1530,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Motor_ScrewsHole:PillarScrews5mmM3")
-		(at 330.2 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3062e60d-b0a9-4cb4-8ca1-3ffa5e6fcf17")
-		(property "Reference" "Scr1"
-			(at 334.01 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 334.01 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Motor_Screws:PillarScrew5mmM3"
-			(at 330.2 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 330.2 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 330.2 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "GND"
-			(uuid "dd70ef3e-ffd9-4b2b-a393-48f7223b7a2b")
-		)
-		(instances
-			(project ""
-				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3"
-					(reference "Scr1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Motor_ScrewsHole:PillarScrews5mmM3")
-		(at 342.9 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "36794788-4c63-48f4-9041-fbf11cf18efa")
-		(property "Reference" "Scr2"
-			(at 346.71 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 346.71 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Motor_Screws:PillarScrew5mmM3"
-			(at 342.9 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 342.9 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 342.9 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "GND"
-			(uuid "ab1852e2-a1ef-46e2-b743-3a254b7341af")
-		)
-		(instances
-			(project "MiniDrone_aDat"
-				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3"
-					(reference "Scr2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Motor_ScrewsHole:720DCMotor")
 		(at 355.6 50.8 0)
 		(unit 1)
@@ -1752,7 +1597,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Motor_ScrewsHole:PillarScrews5mmM3")
+		(lib_id "Motor_ScrewsHole:ScrewM2")
 		(at 368.3 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1760,7 +1605,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "adf756af-9811-4078-ac35-e5ac3867e67a")
+		(uuid "624b0247-3ca4-4e91-bef8-8416613a35f6")
 		(property "Reference" "Scr4"
 			(at 372.11 63.4999 0)
 			(effects
@@ -1779,7 +1624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Motor_Screws:PillarScrew5mmM3"
+		(property "Footprint" "Motor_Screws:ScrewM2"
 			(at 368.3 63.5 0)
 			(effects
 				(font
@@ -1806,13 +1651,138 @@
 				(hide yes)
 			)
 		)
-		(pin "GND"
-			(uuid "4693961c-0216-48da-8028-1ae7ff9e1c44")
-		)
 		(instances
 			(project "MiniDrone_aDat"
 				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3"
 					(reference "Scr4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor_ScrewsHole:ScrewM2")
+		(at 355.6 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b04af409-92a6-4a78-9f1c-6f9ad24ca54b")
+		(property "Reference" "Scr3"
+			(at 359.41 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 359.41 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Motor_Screws:ScrewM2"
+			(at 355.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 355.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 355.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "MiniDrone_aDat"
+				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3"
+					(reference "Scr3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor_ScrewsHole:ScrewM2")
+		(at 342.9 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b36a7d45-0e10-4278-87eb-e97de4b96375")
+		(property "Reference" "Scr2"
+			(at 346.71 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 346.71 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Motor_Screws:ScrewM2"
+			(at 342.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 342.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "MiniDrone_aDat"
+				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3"
+					(reference "Scr2")
 					(unit 1)
 				)
 			)
@@ -1885,73 +1855,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Motor_ScrewsHole:PillarScrews5mmM3")
-		(at 355.6 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bea82ef9-62d8-4211-99fc-836ec0254bd6")
-		(property "Reference" "Scr3"
-			(at 359.41 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 359.41 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Motor_Screws:PillarScrew5mmM3"
-			(at 355.6 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 355.6 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 355.6 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "GND"
-			(uuid "67be2165-0146-4d87-90d4-3d526f5a0ecd")
-		)
-		(instances
-			(project "MiniDrone_aDat"
-				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3"
-					(reference "Scr3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Motor_ScrewsHole:720DCMotor")
 		(at 368.3 50.8 0)
 		(unit 1)
@@ -2013,6 +1916,70 @@
 			(project "MiniDrone_aDat"
 				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3"
 					(reference "Mt4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor_ScrewsHole:ScrewM2")
+		(at 330.2 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8184762-0993-4713-bc0d-1d296a718b8f")
+		(property "Reference" "Scr1"
+			(at 334.01 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 334.01 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Motor_Screws:ScrewM2"
+			(at 330.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 330.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 330.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/fa3d8347-57ba-4f4f-87fb-eda48754e7c3"
+					(reference "Scr1")
 					(unit 1)
 				)
 			)

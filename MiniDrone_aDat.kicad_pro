@@ -445,7 +445,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "Motor_Screws"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
