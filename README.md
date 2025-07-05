@@ -11,9 +11,14 @@
 ### Power 
 ![Image](https://github.com/user-attachments/assets/1d366f26-afe1-447e-a548-1bfdf900566e)
 ## PCB
-<img width="728" height="754" alt="Image" src="https://github.com/user-attachments/assets/a725ec0f-c476-4d5c-8578-e108bb791335" />
 
-<img width="854" height="819" alt="Image" src="https://github.com/user-attachments/assets/8251bf23-ac10-4937-bdbd-f26cd183696d" />
+
+<img width="592" height="561" alt="Image" src="https://github.com/user-attachments/assets/3bdd9b88-b002-4356-955d-ad0cf1afbb6a" />
+
+<img width="478" height="490" alt="Image" src="https://github.com/user-attachments/assets/d3848956-5fbd-49a8-86da-0b3c90f5e8e0" />
+
+## Battery use for project 
+<img width="501" height="473" alt="Image" src="https://github.com/user-attachments/assets/cf4281a0-3cee-4b33-9b15-91d7a37506f3" />
 
 ## Note 
 For details schematic please download and view in PDF .
