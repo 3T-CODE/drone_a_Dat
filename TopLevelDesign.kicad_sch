@@ -2071,16 +2071,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 29.21) (xy 69.85 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "474533c2-fd0e-4f5d-9a40-18d2783cf82a")
-	)
-	(wire
-		(pts
 			(xy 87.63 151.13) (xy 92.71 151.13)
 		)
 		(stroke
@@ -22099,7 +22089,7 @@
 		(uuid "397033b7-b017-4421-9d07-89562d2d70d9")
 	)
 	(label "PA15"
-		(at 69.85 27.94 180)
+		(at 69.85 29.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
