@@ -20,6 +20,10 @@
 ## Battery use for project 
 <img width="501" height="473" alt="Image" src="https://github.com/user-attachments/assets/cf4281a0-3cee-4b33-9b15-91d7a37506f3" />
 
+## JLCPCB Gerber view
+<img width="868" height="791" alt="Image" src="https://github.com/user-attachments/assets/674bc3e3-0e5f-4477-aaea-c4c314fee964" />
+
+<img width="807" height="786" alt="Image" src="https://github.com/user-attachments/assets/d9fa13c1-d639-4f9a-b20f-44e9bbc81947" />
 ## Note 
 For details schematic please download and view in PDF .
 
